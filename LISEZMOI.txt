@@ -1,0 +1,80 @@
+﻿AUTEUR:			Olivier Meloche
+DA:			1708301
+NOM DU PROGRAMME:	STACKER
+NOM ORIGINAL:		main.py
+
+-----------
+DESCRIPTION
+-----------
+Ce jeu de vitesse permet de placer des cubes à la verticale
+jusqu'au sommet. Les cubes iront de plus en plus vite selon
+le niveau de difficulté.
+
+--------
+CONTRÔLE
+--------
+"FLÈCHE GAUCHE/DROITE" pour changer un paramètres
+"ESPACE" pour sélectionner ou placer un cube
+"ÉCHAP" pour revenir à l'affichage précédent
+
+
+MENU PRINCIPAL:
+╔══════════════════╗
+║ [1]   JOUER      ║
+║ [2]   PARAMÈTRES ║
+║ [3]   SCORES     ║
+╚══════════════════╝
+[1]	Exécute le jeu
+[2]	Affiche les paramètres
+[3]	Affiche le tableau des scores
+
+MENU PARAMETRE:
+╔══════════════════╗
+║ [1]   NIVEAU     ║
+║ [2]   ÉTAGE      ║
+║ [3]   AUDIO      ║
+║ [4]   PLEIN ÉCRAN║
+║ [5]   COULEUR    ║
+╚══════════════════╝
+[1]	Permet de changer la difficulté
+[2]	Permet de choisir le nombre d'étage entre 13 et 25
+[3]	Affiche les paramètres audios
+[4]	Permet d'afficher le jeu en plein écran
+[5]	Permet de changer la couleur des cubes
+
+MENU AUDIO:
+╔══════════════════╗
+║ [1]   VOLUME     ║
+║ [2]   MUSIQUE    ║
+╚══════════════════╝
+[1]	Permet de changer le volume entre 0% et 100%
+[2]	Permet de choisir une musique
+
+
+-----------
+ EXÉCUTION 
+-----------
+Pour exécuter le programme, vous devez avoir le langage "python3" d'installé
+sur votre machine: https://www.python.org/downloads/
+
+Une fois python installé, vous devez également installer la librairie externe
+"pygame" en complément avec celui-ci: https://www.pygame.org/
+
+*Créé à partir de la version python 3.7.1
+*Testé sous Windows seulement
+
+[WINDOWS]
+Lancez la console (CMD.EXE), puis tapez: python C:\CHEMIN\main.py
+
+[LINUX]
+Lancez le terminal, puis tapez: python /CHEMIN/main.py
+
+-----------
+   NOTES
+-----------
+- Le fichier "parametres.ini" sert à sauvegarder vos paramètres et sera
+  actualisé en temps réel.
+- Le fichier "scores.txt" enregistre les meilleurs temps si le joueur à gagné
+- Il n'est actuellement pas possible de désactiver seulement la musique
+- Le jeu s'affiche avec un framerate de 60 images par secondes
+- Ce programme ne possède aucun droit d'auteur
